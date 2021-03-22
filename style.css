@@ -1,0 +1,337 @@
+h1 {
+  text-align: center;
+  font-family: "kids rock demo";
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.svg-animation-container {
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  padding: 24px;
+  margin: 0 auto;
+  border-radius: 20%;
+  height: 250px;
+}
+
+.svg-animation-container svg {
+  width: 100%;
+}
+#Layer_2 {
+  opacity: 0; 
+  background: blue;
+  height: 100px;
+  width: 100px; 
+  animation: opacityOn 5s normal forwards;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes opacityOn {
+  0% {
+      opacity: 1;
+  }
+  25% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+  75% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+#Layer_4{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-animation: rotate 3s linear infinite;
+  animation: rotate 3s linear infinite;
+}
+@-webkit-keyframes rotate {
+  100%{
+  -webkit-transform: spinX(4deg);
+  transform: rotate(4deg);
+  -webkit-transform: spinY(4deg);
+  transform: rotate(4deg);
+
+  }
+}
+#Eyes_Closed, #Eyes_closed{
+  opacity: 0; 
+  background: blue;
+  height: 100px;
+  width: 100px; 
+  animation: opacityOn 5s normal forwards;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes opacityOn {
+  0% {
+      opacity: 1;
+  }
+  25% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+  75% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@-webkit-keyframes hvr-wobble-top {
+  16.65% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+  33.3% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-3deg);
+    transform: skew(-3deg);
+  }
+  66.6% {
+    -webkit-transform: skew(2deg);
+    transform: skew(2deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-1deg);
+    transform: skew(-1deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+
+#Plants {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+}
+#Plants {
+  -webkit-animation-name: hvr-wobble-top;
+  animation-name: hvr-wobble-top;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+#Brinjal {
+  opacity: 0; 
+  background: blue;
+  height: 100px;
+  width: 100px; 
+  animation: opacityOn9 8s normal forwards;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+#Ginger {
+  opacity: 0; 
+  background: blue;
+  height: 100px;
+  width: 100px; 
+  animation: opacityOn9 8s normal forwards;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+#Potatoes {
+  opacity: 0; 
+  background: blue;
+  height: 100px;
+  width: 100px; 
+  animation: opacityOn9 8s normal forwards;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+#Lettuce {
+  opacity: 0; 
+  background: blue;
+  height: 100px;
+  width: 100px; 
+  animation: opacityOn9 8s normal forwards;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+}
+#Garlic {
+  opacity: 0; 
+  background: blue;
+  height: 100px;
+  width: 100px; 
+  animation: opacityOn9 8s normal forwards;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
+#Tomatoes {
+  opacity: 0; 
+  background: blue;
+  height: 100px;
+  width: 100px; 
+  animation: opacityOn9 8s normal forwards;
+  animation-delay: 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes opacityOn9 {
+  0% {
+      opacity: 0;
+  }
+ 
+  
+  100% {
+      opacity: 1;
+  }
+}
+
+
+@keyframes opacityOn {
+  0% {
+      opacity: 1;
+  }
+  25% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+  75% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes hvr-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+#River {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+#River {
+  -webkit-animation-name: hvr-wobble-horizontal;
+  animation-name: hvr-wobble-horizontal;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+#Book1, #Book_5 {
+  -webkit-transform: translateX(-8px);
+  transform: translateX(-8px);
+  
+}
+#eyes_closed{
+  opacity: 0;
+} #Book1 {
+  opacity: 0; 
+  background: blue;
+  height: 100px;
+  width: 100px; 
+  animation: opacityOn1 5s normal forwards;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+#Book_2 {
+  opacity: 0; 
+  background: blue;
+  height: 100px;
+  width: 100px; 
+  animation: opacityOn1 5s normal forwards;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+#Book_3 {
+  opacity: 0; 
+  background: blue;
+  height: 100px;
+  width: 100px; 
+  animation: opacityOn1 5s normal forwards;
+  animation-delay: 1.5s;
+  animation-iteration-count: infinite;
+}
+#Book_4 {
+  opacity: 0; 
+  background: blue;
+  height: 100px;
+  width: 100px; 
+  animation: opacityOn1 5s normal forwards;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+#Book_5 {
+  opacity: 0; 
+  background: blue;
+  height: 100px;
+  width: 100px; 
+  animation: opacityOn1 5s normal forwards;
+  animation-delay: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes opacityOn1 {
+  100% {
+      opacity: 1;
+  }
+ 
+  0% {
+      opacity: 0;
+  }
+}
