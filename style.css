@@ -24,7 +24,6 @@ h1 {
 }
 #Layer_2 {
   opacity: 0; 
-  background: blue;
   height: 100px;
   width: 100px; 
   animation: opacityOn 5s normal forwards;
@@ -49,7 +48,7 @@ h1 {
       opacity: 1;
   }
 }
-#Layer_4{
+#Globe_1 {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -71,7 +70,7 @@ h1 {
 
   }
 }
-#Eyes_Closed, #Eyes_closed{
+#Eyes_Closed, #Eyes_closed, #eyes_closed{
   opacity: 0; 
   background: blue;
   height: 100px;
